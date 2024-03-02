@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Paige's Plate</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+      :root {
+        --beige: #D6D1BE;
+        --green: #759778;
+        --green-hover: #83A286;
+        --yellow: #F9BC14;
+        --yellow-hover: #F7A116;
+        --bs-body-font-family: 'Montserrat', sans-serif;
+        --logo-width: 300px;
+      }
+
+      body {
+        background: var(--beige);
+        min-height: 100vh;
+      }
+
+      .logo img {
+        width: var(--logo-width);
+      }
+
+      .btn {
+        --bs-btn-bg: var(--yellow);
+        --bs-btn-border-color: #000;
+        --bs-btn-hover-bg: var(--yellow-hover);
+        --bs-btn-hover-border-color: #000;
+        --bs-btn-color: #000;
+        --bs-btn-hover-color: #000;
+        --bs-btn-border-width: 3px;
+        --bs-btn-padding-y: 1rem;
+        font-weight: 600;
+        min-width: 320px;
+      }
+
+      .btn * {
+        vertical-align: middle;
+      }
+
+      .btn svg {
+        width: 32px;
+      }
+
+      .fb-icon * {
+        stroke: currentColor;
+      }
+
+      .menu-icon * {
+        fill: currentColor;
+      }
+    </style>
+  </head>
+  <body class="d-flex align-items-center justify-content-center">
+    <div class="container my-5 text-center">
+      <h1 class="logo text-center my-5">
+        <img src="logo.svg" alt="Paige's Plate">
+      </h1>
+
+      <p class="fs-3 mb-5">
+        Check out our Facebook <br>
+        to get the latest updates!
+      </p>
+
+      <a class="btn btn-lg mx-1 my-3" href="https://www.facebook.com/paigesplatenc">
+        <svg class="fb-icon" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" clip-rule="evenodd" viewBox="0 0 32 32">
+          <path fill="none" stroke="#000" stroke-width="2.91" d="M24 1.455h-4.364c-3.989 0-7.272 3.283-7.272 7.272v4.364H8v5.818h4.364v11.636h5.818V18.909h4.363L24 13.091h-5.818V8.727a1.46 1.46 0 0 1 1.454-1.454H24V1.455Z"/>
+        </svg>
+        <span>Facebook</span>
+      </a>
+
+      <a class="btn btn-lg mx-1 my-3" href="https://order.toasttab.com/online/paigesplate">
+        <svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" clip-rule="evenodd" viewBox="0 0 32 32">
+          <path fill-rule="nonzero" d="M14.34.7c-.05-.44-.28-.7-.72-.7-.43 0-.72.27-.72.7v6.44c0 .45-.3.74-.75.74h-.04c-.45 0-.75-.29-.75-.74V.7c0-.43-.28-.7-.72-.7-.43 0-.71.27-.71.7v6.44c0 .45-.3.74-.76.74h-.03c-.46 0-.76-.29-.76-.74V.7c0-.43-.28-.7-.71-.7-.44 0-.67.26-.72.7l-.69 7.7c-.18 2.09.69 3.8 2.71 4.26.24.05.43.2.4.5l-1 16.66c-.09 1.42.77 2.18 2.27 2.18 1.51 0 2.36-.76 2.28-2.18L11.9 13.16c-.02-.3.17-.45.4-.5 2.03-.47 2.9-2.17 2.71-4.26L14.33.7Zm10.1-.7.01 31.06s-.01.29-.4.63c-.39.35-.67.32-1.42.3-.75-.03-.78-.14-1.02-.37-.25-.23-.35-.5-.22-1.23.14-.75 1.21-10.08 1.21-10.08s.03-.13-.01-.27l.05-.43c-.82 0-2.7-.07-3.4-.05-.8.01-1.06-.25-1.1-.78-.02-.53-.06-5.22.61-9.64.67-4.42 2.28-6.66 3.4-7.92C23.26-.04 24.44 0 24.44 0"/>
+        </svg>
+        <span>Menu & Online Ordering</span>
+      </a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
